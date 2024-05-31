@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "proj"
+version = "0.1.0"
+description = ""
+authors = ["Andrew X <example@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"  # Required for langchain
+chromadb = "^0.5.0"
+langchain = "^0.2.1"
+langchain-chroma = "^0.1.1"
+beautifulsoup4 = "^4.12.3"
+langchain-community = "^0.2.1"
+langchain-core = "^0.2.3"
+tomli = "^2.0.1"
+pypdf = "^4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
