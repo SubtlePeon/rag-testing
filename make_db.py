@@ -1,4 +1,4 @@
-from chromadb import Documents, Embeddings, EmbeddingFunction
+from chromadb import EmbeddingFunction
 from chromadb.utils import embedding_functions
 from langchain_chroma import Chroma
 from langchain_community.document_loaders import PyPDFLoader
